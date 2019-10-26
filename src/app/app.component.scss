@@ -2,7 +2,7 @@
     background-color: #fafafa;    
     background-image: url("../assets/bkg.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -18,9 +18,7 @@
 }
 .container {
     display: block;
-    width: 100%;    
-    .column-container {
-    }
+    width: 100%;
     .left {
         width: 400px;
         display: block;
