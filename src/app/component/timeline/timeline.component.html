@@ -3,7 +3,7 @@
               
       <mat-card>
             <mat-card-header *ngIf="avatar.length > 0">
-              <div mat-card-avatar class="header-image" [style.backgroundImage]="'url('+avatar[i]+')'" ></div>
+              <div mat-card-avatar class="header-image" [lazyLoad]="avatar[i]" ></div>
               <mat-card-title>{{item.title}} {{i + 1}}</mat-card-title>
               <mat-card-subtitle>Raza "cacri"</mat-card-subtitle>
             </mat-card-header>
