@@ -25,13 +25,23 @@
         margin-right: auto;
         float: left;
         margin-left: 50px;
-
+        @media screen and (max-width: 950px ) {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     .right {
         width: 400px;
         display: block;
         float: right;
         margin-right: 50px;
-
+        @media screen and (max-width: 950px ) {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
     }
+
 }
