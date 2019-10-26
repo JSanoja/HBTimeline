@@ -13,9 +13,17 @@
     .header-image {
         // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
         background-size: cover;
+        
     }    
     .mat-card {
         background: rgba(0, 0, 0, 0.65);
+    }
+    .mat-card-image {     
+        text-align: center;
+        height: 270px;
+    }
+    .mat-card {     
+        padding-bottom: 0;
     }
     
 }

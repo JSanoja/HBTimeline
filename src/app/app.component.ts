@@ -73,6 +73,11 @@ export class AppComponent implements OnInit{
       title: 'Gatite',
       url: '',
       id: 'D7BSBdY0GtU'
+    },
+    {
+      title: 'Gatite',
+      url: '',
+      id: 'WQsAw-6Rbns'
     }
   ];
   data2: Array<IdataTimeline> = [
@@ -140,8 +145,17 @@ export class AppComponent implements OnInit{
       title: 'Perrite',
       url: '',
       id: 'kgvFtwRhJXU'
+    }, {
+      title: 'Perrite',
+      url: '',
+      id: 'Xi1TEF-eg9M'
     }
   ];
+  data3: Array<IdataTimeline> = [{
+    title: 'Chiques',
+    url: '',
+    id: 'rd8EX2_K4AA'
+  }];
   title = 'HBTimeline';
   cats: Array<string> = [];
   dogs: Array<string> = [];
